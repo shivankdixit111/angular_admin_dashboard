@@ -1,0 +1,25 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+div{
+    height: 10rem;
+    width: 52rem;
+    background-color: bisque;
+    box-shadow: 2px 2px 5px black; 
+    position: fixed;
+    inset: 0;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    & h1{
+        font-size: 2.4rem;
+        font-weight: 600;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+}
