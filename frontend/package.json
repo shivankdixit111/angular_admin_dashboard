@@ -1,13 +1,12 @@
 {
-  "name": "frontend",
+  "name": "angular-dashboard",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test",
-    "vercel": "ng build --configuration production"
+    "test": "ng test"
   },
   "private": true,
   "dependencies": {
@@ -19,7 +18,8 @@
     "@angular/platform-browser-dynamic": "^19.2.0",
     "@angular/router": "^19.2.0",
     "bootstrap": "^5.3.5",
-    "rxjs": "~7.8.0",
+    "path-to-regexp": "^8.2.0",
+    "rxjs": "^7.8.2",
     "tslib": "^2.3.0",
     "zone.js": "~0.15.0"
   },
